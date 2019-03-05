@@ -85,6 +85,9 @@
 
 @media screen and (max-width: 756px) {
 
+    body {
+        width: 100vw !important;
+    }
     .turnabout {
         display: none !important;
     }
