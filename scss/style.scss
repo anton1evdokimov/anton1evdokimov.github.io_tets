@@ -270,8 +270,6 @@ body {
     }
 }
 
-
-
 .btn {
     display: flex;
     width: 170px;
@@ -372,7 +370,7 @@ body {
 .purchase {
     width: 100%;
     background-color: rgb(74, 46, 33);
-    padding: 30px 370px 30px 370px;
+    padding: 30px 10% 30px 21%;
     font-family: raleway-regular, Arial;
     color: #fff;
     font-size: 28px;
@@ -396,7 +394,7 @@ body {
     }
 
     .btn {
-        margin: 0 9px 0 0;
+        margin: 0 12px;
     }
 }
 
@@ -646,11 +644,13 @@ body {
     &-content {
         display: flex;
         width: 990px;
+        max-width: 90%;
         margin: 0 auto;
-        justify-content: space-between;
-
+        justify-content: space-around;
+flex-wrap: wrap;
         &-item {
             cursor: pointer;
+            padding: 0 9px;
             fill: #c7b299;
             margin: 70px 0;
             display: flex;
