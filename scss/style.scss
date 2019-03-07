@@ -160,9 +160,10 @@ body {
         display: none;
     }
 
-    input[type="checkbox"]:checked ~ .menu {
+    input[type="checkbox"]:checked~.menu {
         display: block !important;
     }
+
     /*input[type="checkbox"]:checked ~ .logo-svg {
         fill: #000;
     }*/
@@ -310,7 +311,7 @@ body {
     margin: 70px auto 50px auto;
     display: flex;
     flex-direction: row;
-    padding: 0 200px 0 200px;
+    padding: 0 200px;
     justify-content: space-around;
     flex-wrap: wrap;
 
@@ -646,7 +647,8 @@ body {
         max-width: 90%;
         margin: 0 auto;
         justify-content: space-around;
-flex-wrap: wrap;
+        flex-wrap: wrap;
+
         &-item {
             cursor: pointer;
             padding: 0 9px;
@@ -888,9 +890,11 @@ flex-wrap: wrap;
             .twitter {
                 font-family: montserrat-light;
                 color: #545454;
-                font-size: 14px; /* Приближение из-за подстановки шрифтов */
+                font-size: 14px;
+                /* Приближение из-за подстановки шрифтов */
                 font-weight: 300;
-                line-height: 20px; /* Приближение из-за подстановки шрифтов */
+                line-height: 20px;
+                /* Приближение из-за подстановки шрифтов */
                 text-align: left;
 
                 a {
