@@ -143,8 +143,6 @@
         .menu {
             align-self: flex-end;
             display: none !important;
-            /*visibility:hidden;*/
-            /*display: none !important;*/
             margin: 0 auto !important;
             height: auto;
             flex-direction: column;
@@ -155,15 +153,13 @@
         .menu li {
             height: 40px;
             text-align: center;
-            background-color: #ccc;
+            background-color: #c7b299;
             color: #000;
             border-radius: 12px;
             display: flex;
             padding-top: 9px;
             width: 100%;
-            border: 1px solid #c7b299;
         }
-
 
         .menu li a {
             width: 90%;
