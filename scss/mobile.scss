@@ -55,7 +55,8 @@
     }
 
     .purchase {
-        padding: 30px;
+        width: 95%;
+        margin: 3px auto;
     }
 
     .excellent {
@@ -68,6 +69,7 @@
 
     .recent-content {
         flex-direction: column;
+        align-self: center;
 
         .item {
             margin: 9px auto;
@@ -117,6 +119,10 @@
     .video-description {
         left: 9%;
         width: 90%;
+    }
+
+    .projects-button {
+        width: 95%;
     }
 
     .menu-label {
@@ -179,8 +185,13 @@
     }
 
     .projects {
-        padding: 12px;
-        .btn{
+        padding: 0;
+
+        .projects-cards {
+            width: 95%;
+        }
+
+        .btn {
             margin-top: 9px;
         }
     }
@@ -233,7 +244,7 @@
 
     .main-header {
         min-height: 153px;
-        padding: 9px 9px 3px 9px;
+        padding: 7px;
     }
 
     .svg-img {
