@@ -1,4 +1,7 @@
 @media screen and (max-width: 1700px) {
+    body {
+        width: 100%;
+    }
     .main-header {
         min-height: 700px;
     }
@@ -13,16 +16,11 @@
 @media screen and (max-width: 1200px) {    
     .main-header {
         min-height: 500px;
-    }
-
-    body {
-        width: 100%;
-    }
+    }    
 
     .projects {
         width: 100%;
         padding: 30px;
-        text-align: center;
     }
 
     .video-description {
@@ -190,14 +188,14 @@
     }
 
     .projects {
-        padding: 0;
+        padding: 12px 0;
 
-        .projects-cards {
+        &-cards {
             width: 95%;
         }
 
         .btn {
-            margin-top: 9px;
+            margin: 9px auto;
         }
     }
 
