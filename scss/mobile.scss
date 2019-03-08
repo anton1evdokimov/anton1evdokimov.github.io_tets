@@ -114,12 +114,9 @@
         display: none !important;
     }
 
-    .main-footer-content {
-        
-    }
-
     .video-description {
         left: 9%;
+        width: 90%;
     }
 
     .menu-label {
@@ -183,10 +180,14 @@
 
     .projects {
         padding: 12px;
+        .btn{
+            margin-top: 9px;
+        }
     }
 
     .video-description {
         left: 1%;
+        width: 98%;
     }
 
     .excellent {
@@ -211,6 +212,12 @@
     }
 
     .recent {
+        padding: 12px;
+
+        .item {
+            width: 350px;
+        }
+
         .arrow {
             display: none !important;
         }
@@ -229,17 +236,19 @@
         padding: 9px 9px 3px 9px;
     }
 
-
-
     .svg-img {
         margin: 0 auto;
         display: flex;
         flex-direction: row;
-        padding: 9px;
+        padding: 3px;
 
         .icon {
-            padding: 3px;
-            width: 49%;
+            padding: 12px 2px;
+            width: 50%;
+
+            .text {
+                width: 93%;
+            }
         }
     }
 }
