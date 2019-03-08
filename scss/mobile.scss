@@ -169,6 +169,11 @@
         }
     }
 
+    .excellent-content .list li{
+        font-size: 13px;
+        padding-left: 39px;
+    }
+
     .search {
         display: none !important;
     }
@@ -203,7 +208,7 @@
 
     .excellent {
         background-position: 9% 100%;
-        padding: 15px;
+        padding: 12px;
 
         &-header {
             text-align: center;
@@ -217,13 +222,15 @@
         }
 
         .list {
+            font-size: 12px;
+            padding-left: 40px;
             align-self: flex-end;
             width: 55%;
         }
     }
 
     .recent {
-        padding: 12px;
+        padding: 12px 0;
 
         .item {
             width: 350px;

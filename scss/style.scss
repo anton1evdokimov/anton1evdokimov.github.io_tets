@@ -460,7 +460,7 @@ body {
     &-cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
 
         &-card {
             position: relative;
