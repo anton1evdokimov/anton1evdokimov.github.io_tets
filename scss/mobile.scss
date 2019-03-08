@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {    
     .main-header {
         min-height: 500px;
     }
@@ -108,7 +108,7 @@
 @media screen and (max-width: 756px) {
 
     body {
-        width: 100vw !important;
+        width: 100% !important;
         margin: 0 auto;
     }
 
@@ -254,6 +254,7 @@
         padding: 3px;
 
         .icon {
+            font-size: 20px;
             padding: 12px 2px;
             width: 50%;
 
