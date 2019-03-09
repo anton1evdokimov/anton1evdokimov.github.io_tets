@@ -374,7 +374,6 @@ body {
     font-family: raleway-regular, Arial;
     color: #fff;
     font-size: 28px;
-    /* Приближение из-за подстановки шрифтов */
     text-align: left;
     display: flex;
     flex-direction: row;
@@ -407,7 +406,6 @@ body {
         font-family: raleway-semibold, Arial;
         color: #555;
         font-size: 30px;
-        /* Приближение из-за подстановки шрифтов */
         text-align: center;
         display: block;
         width: 100%;
@@ -461,6 +459,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin: 0 auto;
 
         &-card {
             position: relative;
